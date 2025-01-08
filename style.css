@@ -7,4 +7,5 @@
 .Clock-Numbers{
     font-size: 29vh;
     text-shadow: 0 10px 50px rgba(41, 40, 61, 0.7);
+    line-height: 1.2; /* Ensures tight spacing between lines if multi-line */
 }
