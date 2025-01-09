@@ -78,7 +78,7 @@ function reset(){
     startTime = 0;
     elapsedTime = 0;
     isRunning = false;    
-    display.textContent = "00:00:00:00";
+    display.textContent = "00 : 00 : 00 : 00";
 }
 
 function update(){
@@ -95,6 +95,5 @@ function update(){
     minutes = String(minutes).padStart(2, "0");
     seconds = String(seconds).padStart(2, "0");
     milliseconds = String(milliseconds).padStart(2, "0")
-
-    display.textContent = `${hours}:${minutes}:${seconds}:${milliseconds}`;
+    display.textContent = `${hours} : ${minutes} : ${seconds} : ${milliseconds}`;
 }
